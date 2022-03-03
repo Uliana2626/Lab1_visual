@@ -25,7 +25,6 @@ public class HW1
         }
         for(int i = 0; i < n; i++)
             if (kassa[i] > max) max = kassa[i];
-        Console.WriteLine(max);
-        return 0;
+        return max;
     }    
 }
